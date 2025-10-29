@@ -264,7 +264,7 @@ const CAMPUS_LOCATIONS = [
         floor: 'Ground Floor',
         description: "Campus health center providing first aid, basic medical consultations, and emergency assistance.",
         facilities: ['First Aid', 'Health Consultation'],
-        image: "https://res.cloudinary.com/dqis4cron/image/upload/v1761730454/csbldg6_h1fxzp.jpg",
+        image: 'https://res.cloudinary.com/dqis4cron/image/upload/v1761730454/csbldg6_h1fxzp.jpg',
     },
 
     // PARKING AREAS

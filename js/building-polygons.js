@@ -140,6 +140,7 @@ function showBuildingInfo(props) {
     if (popup) {
         const nameEl = document.getElementById('buildingName');
         const detailsEl = document.getElementById('buildingDetails');
+        const carouselContainer = document.querySelector('.carousel-container');
         
         if (nameEl) {
             nameEl.textContent = props.name || props.title || 'Unknown';
@@ -158,20 +159,29 @@ function showBuildingInfo(props) {
             `;
         }
         
-        if (typeof initCarousel === 'function') {
-            let images = [];
-            
-            if (props.images && Array.isArray(props.images)) {
-                images = props.images;
-            } else if (props.image) {
-                images = [{
-                    url: props.image,
-                    title: props.name || 'Location',
-                    description: props.description || ''
-                }];
+        const hasImages = (props.images && props.images.length > 0) || props.image;
+        
+        if (carouselContainer) {
+            if (hasImages) {
+                carouselContainer.style.display = 'block';
+                if (typeof initCarousel === 'function') {
+                    let images = [];
+                    
+                    if (props.images && Array.isArray(props.images)) {
+                        images = props.images;
+                    } else if (props.image) {
+                        images = [{
+                            url: props.image,
+                            title: props.name || 'Location',
+                            description: props.description || ''
+                        }];
+                    }
+                    
+                    initCarousel({ images: images });
+                }
+            } else {
+                carouselContainer.style.display = 'none';
             }
-            
-            initCarousel({ images: images });
         }
         
         popup.style.display = 'block';

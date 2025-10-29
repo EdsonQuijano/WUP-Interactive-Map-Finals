@@ -21,6 +21,11 @@ const CAMPUS_BUILDINGS = {
                         "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761730462/engrbldg-1_ozvuzr.jpg",
                         "title": "Building Exterior",
                         "description": "Main entrance, Ground Floor"
+                    },
+                    {
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748364/engrbldg9_r0lbzd.jpg",
+                        "title": "Building Exterior",
+                        "description": "Faculty Room"
                     }
                 ]
             },
@@ -65,7 +70,6 @@ const CAMPUS_BUILDINGS = {
                         "title": "CS Building",
                         "description": "Right entrance"
                     },
-        
                     {
                         "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761730450/csbldg4_wphgqc.jpg",
                         "title": "CS Building 1st floor",
@@ -122,11 +126,7 @@ const CAMPUS_BUILDINGS = {
                 "fillColor": "#5a9f6f",
                 "fillOpacity": 0.6,
                 "images": [
-                    {
-                        "url": "assets/images/dormitory/exterior.jpg",
-                        "title": "Dormitory Exterior",
-                        "description": "Student housing"
-                    }
+
                 ]
             },
             "geometry": {
@@ -372,7 +372,7 @@ const CAMPUS_BUILDINGS = {
                 "fillOpacity": 0.6,
                 "images": [
                     {
-                        "url": "assets/images/gymnasium/exterior.jpg",
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748364/gymnasium_dxwubh.jpg",
                         "title": "University Gymnasium",
                         "description": "Main sports facility"
                     }
@@ -453,7 +453,7 @@ const CAMPUS_BUILDINGS = {
                 "fillOpacity": 0.6,
                 "images": [
                     {
-                        "url": "assets/images/chapel/exterior.jpg",
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748364/chapel_bju6yh.jpg",
                         "title": "University Chapel",
                         "description": "Main worship area"
                     }
@@ -531,7 +531,7 @@ const CAMPUS_BUILDINGS = {
                 "fillOpacity": 0.6,
                 "images": [
                     {
-                        "url": "assets/images/eze/exterior.jpg",
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748364/ezebldg_lezvat.jpg",
                         "title": "Eze Building",
                         "description": "Academic building"
                     }
@@ -572,9 +572,19 @@ const CAMPUS_BUILDINGS = {
                 "fillOpacity": 0.6,
                 "images": [
                     {
-                        "url": "assets/images/library/exterior.jpg",
-                        "title": "Library & Auditorium",
-                        "description": "Main library and event venue"
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748364/auditorium_gwpp7v.jpg",
+                        "title": "JJDG Building",
+                        "description": "Auditorium"
+                    },
+                    {
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748363/library_lfeeuk.jpg",
+                        "title": "JJDG Building",
+                        "description": "Main library "
+                    },
+                    {
+                        "url": "https://res.cloudinary.com/dqis4cron/image/upload/v1761748363/wespresso_bq9jbw.jpg",
+                        "title": "JJDG Building",
+                        "description": "Wespresso Cafe"
                     }
                 ]
             },
@@ -608,11 +618,7 @@ const CAMPUS_BUILDINGS = {
                 "fillColor": "#4a8f5f",
                 "fillOpacity": 0.6,
                 "images": [
-                    {
-                        "url": "assets/images/nursing/exterior.jpg",
-                        "title": "Nursing Building",
-                        "description": "College of Nursing facilities"
-                    }
+
                 ]
             },
             "geometry": {
